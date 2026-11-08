@@ -1,0 +1,8 @@
+<div class="box">
+                        <img src="shakir_1.jpg" alt="">
+                        <div class="card">
+                            <h3>E-commerce Websitr</h3>
+                            <p>a fully responsive online store built with modern design principal.</p>
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>

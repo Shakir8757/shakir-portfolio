@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1e1e1e;
+    font-family:sans-serif;
+    color: #a0a0a0;
+    line-height: 1.6;
+}
+.main-containt{
+    display: grid;
+    margin: auto;
+    max-width: 1200px;
+    grid-template-columns: minmax(280px, 350px) 1fr;
+    gap: 50px;
+    padding-top: 40px 20px;
+    
+    
+}
+.left{
+    min-height: 90vh;
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+.right{
+    padding: 10px;
+    min-height: 90vh;
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+}
+@media (max-width: 900px){
+    .main-containt{
+    grid-template-columns: 1fr;
+    }
+}
+
+.shakir{
+    height: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #3a3a3a;
+    margin: 30px;
+    
+}
+.left h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+.Developer{
+background-color: #1e1e1e;
+padding: 5px 15px;
+color:#FFBF00;
+border: 1px solid #3a3a3a;
+font-size: 0.8rem;
+border-radius: 8px;
+display: inline-block;
+margin-top: 10px;
+}
+.contect{
+    margin-top: 20px;
+    border-top:2px solid #3a3a3a ;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.phone{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.location{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom:2px solid #3a3a3a;
+}
+.social{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.social img{
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.3s ease;
+}
+.social img:hover{
+    filter: grayscale(0) invert(0);
+}
+
+/* main contanty */
+
+/* naviation */
+#nevation{
+    padding: 30px 40px;
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight:500 ;
+    transition: color 0.3 ease;
+}
+.pen, nav a:hover{
+    color: #FFBF00;
+}
+#about{
+    margin-bottom: 40px;
+}
+.content{
+    color: #e0e0e0;
+}
+.heading{
+    color: #e0e0e0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    
+    
+}
+.content{
+    text-align: justify;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: #FFBF00;
+}
+.grid_contaner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 90px;
+    
+}
+#skills{
+    margin-bottom: 30px;
+}
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    background-color: #1e1e1e;
+    text-align: center;
+    margin-top: 30px;
+    transition: transform 0.3s ease box-shadow 0,3s ease;
+}
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.item img{
+    height: 48px;
+    width: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+}
+.year{
+    color: #e0e0e0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+.school{
+    color:#e0e0e0 ;
+    margin-left: 30px;
+}
+.school_about{
+    color: #e0e0e0;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.collage_about{
+    margin-top: 10px;
+    color: #e0e0e0;
+    margin-left: 30px;
+}
+#portfoleo{
+    margin-top: 30px;
+}
+
+#education_content{
+    margin-left: 200px;
+}
+.portfoleo_main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.project{
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: 1px solid #3a3a3a;
+    overflow: hidden;
+}
+.project img{
+    height: 180px;
+    width: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease box-shadow 0,3s ease;
+}
+.project img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.card{
+    margin: 20px;
+}
+.card h3{
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+.card p{
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+.card span{
+    background-color: rgba(255, 191, 0, 0.1);
+    color: #FFBF00;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    margin-right: 5px;
+}
